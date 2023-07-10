@@ -1,5 +1,5 @@
 {
-    "version": "0.0.0",
+    "version": "0.0.1",
     "name": "@jdeurt/iter",
     "repository": "jdeurt/iter",
     "description": "Super-powered iterables.",
