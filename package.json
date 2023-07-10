@@ -1,8 +1,8 @@
 {
     "version": "0.0.0",
-    "name": "TODO_MODULE_NAME",
-    "repository": "TODO_USERNAME/TODO_REPO",
-    "description": "TODO_MODULE_DESCRIPTION",
+    "name": "@jdeurt/iter",
+    "repository": "jdeurt/iter",
+    "description": "Super-powered iterables.",
     "unpkg": "dist/index.min.js",
     "module": "dist/index.mjs",
     "main": "dist/index.js",
@@ -11,7 +11,10 @@
     "author": {
         "name": "Juan de Urtubey",
         "email": "jdeurt@gmail.com",
-        "url": "https://jdeurt.xyz"
+        "url": "https://sharky.foo"
+    },
+    "publishConfig": {
+        "access": "public"
     },
     "files": [
         "dist",
@@ -20,7 +23,8 @@
     "exports": {
         ".": {
             "import": "./dist/index.mjs",
-            "require": "./dist/index.js"
+            "require": "./dist/index.js",
+            "types": "./types/index.d.ts"
         },
         "./package.json": "./package.json"
     },
@@ -45,9 +49,8 @@
         ]
     },
     "keywords": [
-        "TODO",
-        "module",
-        "keywords"
+        "iterable",
+        "iterator"
     ],
     "devDependencies": {
         "@fast-check/ava": "^1.1.3",

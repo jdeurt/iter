@@ -1,4 +1,4 @@
-# ...
+# @jdeurt/iter
 
 ## License
 
